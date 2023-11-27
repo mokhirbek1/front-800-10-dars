@@ -1,0 +1,29 @@
+.container {
+    width: 2200px;
+    height: 300px;
+    border: 2px solid black;
+    position: relative;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 50px;
+    
+    opacity: 0.5;
+}
+
+.box_yellow {
+    background-color: yellowgreen;
+    position: sticky;
+    right: 0;
+    z-index: -1;
+    opacity: 1;
+
+}
+
+.box:nth-child(3) {
+    top: 150px;
+}
